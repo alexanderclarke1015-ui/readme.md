@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sleeping Sheep Counter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="sky">
+      <div class="stars"></div>
+      <header class="controls">
+        <h1>Sleeping Sheep Counter</h1>
+        <div class="buttons">
+          <button id="startBtn" type="button">Start Counting</button>
+          <button id="stopBtn" type="button">Stop</button>
+        </div>
+        <p id="counter">Sheep Count: 0</p>
+      </header>
+      <main class="field" aria-live="polite"></main>
+      <div class="fence" aria-hidden="true">
+        <div class="post"></div>
+        <div class="rail top"></div>
+        <div class="rail bottom"></div>
+        <div class="post right"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
